@@ -3,6 +3,7 @@ import os
 import collections
 from tqdm import tqdm
 import numpy as np
+import pickle
 from operator import itemgetter
 
 import hyperparams as hp
@@ -30,7 +31,7 @@ def construct_vocab(corpus):
 
     return toreturn
 
-    raise NotImplementedError("construct_vocab")
+#    raise NotImplementedError("construct_vocab")
 
 def trunc_vocab(corpus, counts):
     """ Limit the vocabulary to the 10k most-frequent words. Remove rare words from
@@ -63,7 +64,7 @@ def trunc_vocab(corpus, counts):
 
     return (new_corpus,new_counts)
 
-    raise NotImplementedError("trunc_vocab")
+#    raise NotImplementedError("trunc_vocab")
 
 def load_corpus(path):
     """ Reads the data from disk.

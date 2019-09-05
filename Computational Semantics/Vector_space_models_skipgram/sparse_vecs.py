@@ -45,7 +45,7 @@ def word_vectors(corpus, vocab):
                     word_vecs[vocab[current_word]] = current_array
 
     return word_vecs
-    raise NotImplementedError("word_vectors")
+#    raise NotImplementedError("word_vectors")
 
 
 
@@ -105,7 +105,7 @@ def main():
 
     print (vocab_truncated)
     # print (inverse_vocab_truncated)
-    favorite = 'wolf'
+    favorite = input("Enter Favorite Word\n")
     global idtoindex
     idtoindex = {}
 
