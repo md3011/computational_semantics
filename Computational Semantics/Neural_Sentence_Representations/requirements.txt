@@ -1,6 +1,6 @@
 allennlp==0.7.1
 matplotlib==2.2.3
-numpy==1.15.3
+numpy==1.22.0
 pandas==0.23.4
 requests==2.20.0
 scikit-learn==0.20.0
